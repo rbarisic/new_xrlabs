@@ -1,0 +1,154 @@
+body, html {
+    /*font-size: 16px;*/
+}
+
+.footer {
+    font-size: 14px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: sans-serif;
+}
+
+h1, h2, h3 {
+    font-weight: 300;
+}
+
+h4, h5 {
+    margin: 4px 0 2px 0;
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin: 0.3rem 0 0.2rem 0;
+}
+
+h2 {
+    font-size: 1.8rem;
+    margin: 0.2rem 0 0.1rem 0;
+}
+
+h3 {
+    font-size: 1.4rem;
+    margin: 0.1rem 0;
+}
+
+h4 {
+    font-size: 1.2rem;
+}
+
+h5 {
+    font-size: 1.1rem;
+}
+
+/* Text Modifier */
+
+.text-center {
+    text-align: center;
+}
+
+.text-right {
+    text-align: right;
+}
+
+/* Position Modifier */
+
+.pos-right {
+    position: absolute;
+    right: 0;
+}
+
+.pos-top {
+    position: absolute;
+    top: 0;
+}
+
+.pos-bottom {
+    position: absolute;
+    bottom: 0;
+}
+
+.pos-left {
+    position: absolute;
+    left: 0;
+}
+
+ul .ul-no-style {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.ul-no-style li {
+    padding: 0;
+    margin: 0;
+}
+
+.ul-no-style li a {
+    display: inline-block;
+    padding: 16px;
+    text-decoration: none;
+    background-color: none;
+    width: 100%;
+}
+
+.ul-no-style li a:hover {
+    background-color: rgba(0,0,0,0.3);
+}
+
+.lg-only {
+    display: auto;
+}
+
+a {
+    color: #2871ce;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #2484ff;
+}
+
+.l-box {
+    position: relative;
+    padding: 16px;
+}
+
+.body {
+    position: relative;
+}
+
+.hide-on-mobile {
+    display: auto;
+}
+
+.md-only-b,
+.md-only-i,
+.md-only-ib {
+    display: none !important;
+}
+
+@media screen and (max-width: 48em) {
+    .hide-on-mobile {
+        display: none !important;
+    }
+
+    .lg-only {
+        display: none;
+    }
+
+    .md-only-b {
+        display: block !important;
+    }
+    .md-only-i {
+        display: inline !important;
+    }
+    .md-only-ib {
+        display: inline-block !important;
+    }
+}
+
+
+
+
+/* FOOTER */

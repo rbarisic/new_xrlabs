@@ -1,0 +1,158 @@
+@keyframes slideIn {
+    from {
+        left: -10em;
+        opacity: 0;
+    }
+    to {
+        left: 0rem;
+        opacity: 1;
+    }
+}
+
+@keyframes slideOut {
+    from {
+        left: 0em;
+        opacity: 1;
+    }
+    to {
+        left: -10em;
+        opacity: 0;
+    }
+}
+
+#x-sidebar {
+    display: none;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    width: 100vw;
+    max-width: 32em;
+
+    background: #eee;
+
+    border-right: 1px solid #eee;
+
+    overflow: auto;
+
+    animation-duration: 0.5s;
+    z-index: 1000;
+}
+
+.x-sidebar-title {
+    color: #333;
+    background: #eee;
+
+    font-size: 1.2em;
+
+}
+
+.x-sidebar-title-icon {
+    display: inline-block;
+    color: #666;
+    padding: 1em;
+}
+
+.x-sidebar-title-icon:hover {
+    color: #999;
+    background: #f8f8f8;
+}
+
+.x-sidebar-title-text {
+    display: inline-block;
+    padding: 1em;
+    padding-left: 0;
+}
+
+.x-sidebar-cell {
+    transition: all 0.2s;
+
+    display: block;
+    position: relative;
+    left: 0;
+    right: 0;
+
+    background: #fff;
+
+    border-bottom: 2px solid #eee;
+}
+
+.x-sidebar-cell:hover {
+    color: #000;
+    background: #ddd;
+    border-bottom: 2px solid #bbb;
+}
+
+.x-sidebar-cell:active {
+    transition: none;
+    color: #ffffff;
+    background: #0050b3;
+}
+
+.x-sidebar-cell-icon {
+    display: inline-block;
+    padding: 1em;
+}
+
+.x-sidebar-cell-text {
+    padding: 1em;
+    padding-left: 0;
+    user-select: none;
+
+}
+
+#x-container {
+    position: fixed;
+
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+
+    overflow: hidden;
+
+    color: #111111;
+    background: #ffffff;
+    z-index: 0;
+}
+
+.x-menubar {
+    color: #ffffff;
+    background: ##00599b;
+    width: 100%;
+    font-size: 1.5rem;
+}
+
+.x-menubar-title {
+    display:table-cell;
+    color: white;
+    text-decoration: none;
+    padding: 1rem;
+    margin: 0;
+}
+
+.x-menubar-button {
+    color: #333;
+    display: inline-block;
+    transition: background 0.3s;
+    color: white;
+    text-decoration: none;
+    padding: 1rem;
+    margin: 0;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+    background: #ccc;
+}
+
+.x-menubar-button:hover {
+    transition: none;
+    background: #00599b;
+}
+
+.x-link {
+    color: #fff;
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+}
